@@ -1,0 +1,2 @@
+test:
+	./difftest.pl -1 "./rpal/rpal -ast -noout FILE" -2 "java -jar LexicalAnalyser -ast -noout FILE" -t rpal/tests/
